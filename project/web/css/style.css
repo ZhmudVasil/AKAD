@@ -1,0 +1,373 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.head{
+	background: url(..//img/Layer1.png) 50% no-repeat;
+	background: url(..//img/Layer2.png) 100% no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -2;
+}
+.head__nav{
+	padding: 30px 0 100px;
+}
+.head__nav--h2{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px
+}
+
+.head__title{
+	text-align: center;
+}
+.head__title--h2{
+	background-color: #7beec7;
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	padding: 0 15px;
+	margin-block-end:0;
+}
+.head__title--span{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 48px;
+	display: block;
+	padding: 15px 15px;
+}
+
+.p{
+	font-family: OpenSans;
+	color:  #60606e;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	margin: 20px auto 100px;
+}
+.head__title--item2{
+	border: 10px solid  #60606e;
+	box-sizing: border-box;
+	background-color:  rgba(96, 96, 110, 0);
+	max-width: 555px !important;
+}
+
+.head__historys{
+	padding-left: 50px; 
+}
+.h2{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	margin-top: 5%;
+}
+.h2:before{
+	content: "";
+	position: absolute;
+	background-color:  #7beec7;
+	width: 67px;
+	height: 21px;
+	z-index: -1;
+	bottom: 5px;
+}
+.head__history--h2:before{
+	bottom: -2px;
+}
+.head__history--p{
+	line-height: 30px;
+	max-width: 555px;
+}
+.head__history--img, .choose__img{
+	width: 100%;
+}
+.head__history--img{
+	margin-bottom: -100px;
+}
+.head__history--button{
+	background-color: #7beec7;
+	height: 50px;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	margin-bottom: -25px;
+}
+
+
+
+
+.choose{
+	margin-top: 150px;
+}
+.choose__head--h2{
+	text-align: center;
+}
+.choose__head--p{
+	max-width: 715px;
+}
+.choose__row--h4{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.choose__row--span{
+	font-family: OpenSans;
+	color:  #999999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.portfolio__head--h2{
+	text-align: center;
+	margin-top: 100px;
+}
+.portfolio__head--p{
+	max-width: 765px;
+}
+.portfolio__filter{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+	list-style-type: none;
+	cursor: pointer;
+}
+.portfolio__filter:hover{
+	background-color:  #7beec7;
+	color: #ffffff;
+}
+.portfolio-pictures__item{
+	width: 264px;
+	padding: 7.5px 5px;
+}
+.portfolio__navigation--h2:before{
+	content: "";
+	background-color: rgba(0,0,0,0);
+}
+.contact{
+	padding: 30px;
+	background-color:  #7beec7;
+}
+.contact__touch{
+	padding-left: 50px;
+}
+.contact__h1{
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.contact__but1{
+	background-color:  #ffffff;
+	width: 165px;
+	height: 49px;
+	font-family: Montserrat;
+	color:  #7beec7;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	border: none;
+	margin: 0 0 20px 20px;
+
+}
+.contact__send{
+	background-color:  #ffffff;
+	padding: 20px;
+	margin-right: 30px;
+}
+.contact__h2{
+	font-family: Montserrat;
+	color:  #60606e;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.contact__p{
+	font-family: OpenSans;
+	color:  #999999;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.contact_but2{
+	background-color:  #7beec7;
+	height: 50px;
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+	border:none;
+	float: right;
+}
+.contact__input{
+	border-style: solid;
+	border-width: 1px;
+	border-color:  rgba(0, 0, 0, 10%);
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	height: 50px;
+}
+.contact__send--box{
+	padding: 0 15px;
+}
+
+.footer__nav, .footer__create{
+	margin: 30px 0 0;
+}
+.footer__nav--li{
+	display: inline-block;
+}
+.footer__nav--li:not(:last-child):after{
+	content: "\9\6";
+	font-family: OpenSans;
+	color:  #9a9a9a;
+}
+
+.footer__nav--a, .footer__create--h3{
+	font-family: OpenSans;
+	color:  #9a9a9a;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.footer__create--h3{
+	text-align: right;
+}
+.footer__social--ul{
+	text-align: right;
+}
+.linkedin{
+	width: 14px;
+	height: 14px;
+}
+
+.footer__social--li{
+	display: inline-block;
+	width: 30px;
+}	
+.footer__social--li {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.footer__social--li:hover, .footer__social--li:focus, .footer__social--li:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1200px){
+	.head__history--p{
+		line-height: 20px;
+	}
+	.portfolio-pictures__item{
+	width: 200px;
+	}
+	.footer__nav--a, .footer__create--h3{
+	font-size: 12px;
+	line-height: 30px;
+}
+}
+@media screen and (max-width: 992px){
+	.choose__img, .col-md-1{
+		display: none;
+	}
+	.choose{
+		margin-top: 50px;
+	}
+	.portfolio-pictures__item{
+	width: 163px;
+	}
+	.contact__h1, .contact__h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.footer__create{
+	margin-top: 0;
+	text-align: center;
+	}
+	.footer__nav--ul, .footer__social--ul, .footer__create--h3{
+	text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.head__history--h2{
+		font-size: 20px;
+	}
+	.head__history--img{
+		margin-bottom: 10px;
+	}
+	.head__title--p{
+		margin-bottom: 10px;
+	}
+	.choose{
+		margin-top: 20px;
+	}
+	.choose__head--p{
+		margin-bottom: 25px;
+	}
+	.choose__row{
+		margin-top: 25px;
+	}
+	.choose__row--h4{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.portfolio__navigation--h2{
+		text-align: center;
+	}
+	.portfolio__head--p{
+		margin-bottom: 20px;
+	}
+	.portfolio__filter{
+		display: inline-block;
+		line-height: 20px;
+	}
+	.contact__but1{
+		margin: 20px 0;
+	}
+	.contact__touch{
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.contact__input{
+		margin-bottom: 10px;
+	}
+	.contact__send{
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.choose__row{
+		margin-left: 35px;
+	}
+	.portfolio__filter{
+		font-size: 12px;
+	}
+}
